@@ -1,4 +1,8 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
-    <h3 class="text-xl text-slate-500">Halaman Home</h3>
+    <x-hero></x-hero>
+    <x-company></x-company>
+    <x-feature></x-feature>
+    <x-call-to-action></x-call-to-action>
+    <x-team></x-team>
 </x-layout>
